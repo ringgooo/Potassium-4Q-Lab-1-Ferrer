@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Favorite Game</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="My Name">
+</head>
+
+<body>
+    <form name="grocery-form" action="checkout.html" onsubmit="return validateForm();">
+        <h1>Soda Shop</h1>
+        <h2>Prices:</h2>
+        <p>Coke = 25 Php</p>
+        <p>Pepsi = 25 Php</p>
+        <br>
+        <label for="customer">Enter your Name: </label>
+        <input type="text" name="customer" id="customer" required>
+        <br>
+
+        <p>Enter the number of items</p>
+        <label for="coke">Coke: </label>
+        <input type="number" name="item_coke" id="item_coke" required>
+        <br><br>
+
+        <label for="pepsi">Pepsi: </label>
+        <input type="number" name="item_pepsi" id="item_pepsi" required>
+        <br><br>
+
+        <label for="money">Your Payment: </label>
+        <input type="number" name="money" id="money" required>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    <script src="index.js"></script>
+</body>
