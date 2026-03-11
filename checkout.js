@@ -15,10 +15,10 @@ function processData() {
 
 
     let totalCost = (25 * coke) + (25 * pepsi);
-    document.getElementById("totalCost").innerText = `Total Cost: ${totalCost}`;
+    document.getElementById("totalCost").innerText = `Total Cost: ${totalCost} Php`;
 
     let change = money - totalCost;
-    document.getElementById("change").innerText = `Change: ${change}`;
+    document.getElementById("change").innerText = `Change: ${change} Php`;
     if(change < 0){
         document.getElementById("change").innerText = `Your money is not enough`;
     }
